@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70579EEA25F7707E00C19C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70579EE925F7707E00C19C51 /* main.m */; };
+		70579EFC25F7710300C19C51 /* malicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 70579EFB25F7710300C19C51 /* malicious.m */; };
+		70579F0425F7718200C19C51 /* libmalicious.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 70579EF725F7710300C19C51 /* libmalicious.dylib */; };
+		70579F0C25F77A4B00C19C51 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70579F0A25F77A4B00C19C51 /* LocationManager.m */; };
+		70579F0D25F77A4B00C19C51 /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 70579F0B25F77A4B00C19C51 /* LocationManager.h */; };
+		70579F6F25F78EF800C19C51 /* SelfieTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70579F6D25F78EF800C19C51 /* SelfieTaker.m */; };
+		70579F7025F78EF800C19C51 /* SelfieTaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70579F6E25F78EF800C19C51 /* SelfieTaker.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70579F0225F7717E00C19C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70579ED225F7707C00C19C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70579EF625F7710300C19C51;
+			remoteInfo = malicious;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70579EDA25F7707C00C19C51 /* FirefoxStealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirefoxStealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70579EE825F7707E00C19C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70579EE925F7707E00C19C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70579EEB25F7707E00C19C51 /* FirefoxStealer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirefoxStealer.entitlements; sourceTree = "<group>"; };
+		70579EF725F7710300C19C51 /* libmalicious.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmalicious.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		70579EFB25F7710300C19C51 /* malicious.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = malicious.m; sourceTree = "<group>"; };
+		70579F0A25F77A4B00C19C51 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		70579F0B25F77A4B00C19C51 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		70579F6D25F78EF800C19C51 /* SelfieTaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieTaker.m; sourceTree = "<group>"; };
+		70579F6E25F78EF800C19C51 /* SelfieTaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieTaker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70579ED725F7707C00C19C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70579EF525F7710300C19C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70579ED125F7707C00C19C51 = {
+			isa = PBXGroup;
+			children = (
+				70579EDC25F7707C00C19C51 /* FirefoxStealer */,
+				70579EF825F7710300C19C51 /* malicious */,
+				70579EDB25F7707C00C19C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70579EDB25F7707C00C19C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70579EDA25F7707C00C19C51 /* FirefoxStealer.app */,
+				70579EF725F7710300C19C51 /* libmalicious.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70579EDC25F7707C00C19C51 /* FirefoxStealer */ = {
+			isa = PBXGroup;
+			children = (
+				70579EE825F7707E00C19C51 /* Info.plist */,
+				70579EE925F7707E00C19C51 /* main.m */,
+				70579EEB25F7707E00C19C51 /* FirefoxStealer.entitlements */,
+			);
+			path = FirefoxStealer;
+			sourceTree = "<group>";
+		};
+		70579EF825F7710300C19C51 /* malicious */ = {
+			isa = PBXGroup;
+			children = (
+				70579F6E25F78EF800C19C51 /* SelfieTaker.h */,
+				70579F6D25F78EF800C19C51 /* SelfieTaker.m */,
+				70579F0B25F77A4B00C19C51 /* LocationManager.h */,
+				70579F0A25F77A4B00C19C51 /* LocationManager.m */,
+				70579EFB25F7710300C19C51 /* malicious.m */,
+			);
+			path = malicious;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70579EF325F7710300C19C51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70579F7025F78EF800C19C51 /* SelfieTaker.h in Headers */,
+				70579F0D25F77A4B00C19C51 /* LocationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70579ED925F7707C00C19C51 /* FirefoxStealer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70579EEE25F7707E00C19C51 /* Build configuration list for PBXNativeTarget "FirefoxStealer" */;
+			buildPhases = (
+				70579ED625F7707C00C19C51 /* Sources */,
+				70579ED725F7707C00C19C51 /* Frameworks */,
+				70579ED825F7707C00C19C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70579F0325F7717E00C19C51 /* PBXTargetDependency */,
+			);
+			name = FirefoxStealer;
+			productName = FirefoxStealer;
+			productReference = 70579EDA25F7707C00C19C51 /* FirefoxStealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70579EF625F7710300C19C51 /* malicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70579EFD25F7710300C19C51 /* Build configuration list for PBXNativeTarget "malicious" */;
+			buildPhases = (
+				70579EF325F7710300C19C51 /* Headers */,
+				70579EF425F7710300C19C51 /* Sources */,
+				70579EF525F7710300C19C51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = malicious;
+			productName = malicious;
+			productReference = 70579EF725F7710300C19C51 /* libmalicious.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70579ED225F7707C00C19C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					70579ED925F7707C00C19C51 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					70579EF625F7710300C19C51 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 70579ED525F7707C00C19C51 /* Build configuration list for PBXProject "FirefoxStealer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70579ED125F7707C00C19C51;
+			productRefGroup = 70579EDB25F7707C00C19C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70579ED925F7707C00C19C51 /* FirefoxStealer */,
+				70579EF625F7710300C19C51 /* malicious */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70579ED825F7707C00C19C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70579F0425F7718200C19C51 /* libmalicious.dylib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70579ED625F7707C00C19C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70579EEA25F7707E00C19C51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70579EF425F7710300C19C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70579F0C25F77A4B00C19C51 /* LocationManager.m in Sources */,
+				70579F6F25F78EF800C19C51 /* SelfieTaker.m in Sources */,
+				70579EFC25F7710300C19C51 /* malicious.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70579F0325F7717E00C19C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70579EF625F7710300C19C51 /* malicious */;
+			targetProxy = 70579F0225F7717E00C19C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70579EEC25F7707E00C19C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70579EED25F7707E00C19C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70579EEF25F7707E00C19C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FirefoxStealer/FirefoxStealer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirefoxStealer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blog.wojciechregula.FirefoxStealer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70579EF025F7707E00C19C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FirefoxStealer/FirefoxStealer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirefoxStealer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blog.wojciechregula.FirefoxStealer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70579EFE25F7710300C19C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70579EFF25F7710300C19C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70579ED525F7707C00C19C51 /* Build configuration list for PBXProject "FirefoxStealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70579EEC25F7707E00C19C51 /* Debug */,
+				70579EED25F7707E00C19C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70579EEE25F7707E00C19C51 /* Build configuration list for PBXNativeTarget "FirefoxStealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70579EEF25F7707E00C19C51 /* Debug */,
+				70579EF025F7707E00C19C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70579EFD25F7710300C19C51 /* Build configuration list for PBXNativeTarget "malicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70579EFE25F7710300C19C51 /* Debug */,
+				70579EFF25F7710300C19C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70579ED225F7707C00C19C51 /* Project object */;
+}
